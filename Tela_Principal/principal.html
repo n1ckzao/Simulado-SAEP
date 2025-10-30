@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>LionBook - Painel Principal</title>
+  <link rel="stylesheet" href="principal.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../img/logo.png" alt="logo">
+      <h1>LionBook</h1>
+    </div>
+    <nav>
+      <button id="novoLivroBtn">NOVO LIVRO</button>
+      <button id="estoqueBtn">ESTOQUE</button>
+    </nav>
+  </header>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>TÍTULO</th>
+          <th>AÇÃO</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaLivros"></tbody>
+    </table>
+  </main>
+
+  <script src="principal.js"></script>
+</body>
+</html>

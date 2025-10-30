@@ -1,0 +1,58 @@
+body {
+    background: #0044cc;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 0;
+  }
+  
+  header {
+    padding: 1rem 2rem;
+    background: #003bb3;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  form {
+    background: #fff;
+    width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button[type="submit"] {
+    background: #0044cc;
+    color: white;
+  }
+  button#cancelar {
+    background: #ccc;
+  }
+  
